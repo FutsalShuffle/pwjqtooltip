@@ -56,6 +56,7 @@
             $( this ).next('.'+config.customClass).remove();
         }
         );
+        return this;
     };
 
 }( jQuery ));
